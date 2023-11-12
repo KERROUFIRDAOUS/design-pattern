@@ -76,10 +76,6 @@ public class Main {
         }*/
 
 
-
-
-
-Methode classique avec les setters et getters
        BankAccount account=new BankAccount();
        account.setAccountId(3L);
        account.setCurrency("Euro");

@@ -40,7 +40,7 @@ public class AccountRepoImpl implements AccountRepository{
 
     @Override
     public List<BankAccount> findAll() {
-        return bankAccountMap.values().stream().toList();
+        return bankAccountMap.values().stream().collect(Collectors.toList());
     }
 
     @Override
